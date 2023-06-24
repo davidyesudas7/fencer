@@ -7,7 +7,7 @@ class SplashscreenCubit extends Cubit<SplashscreenState> {
   SplashscreenCubit() : super(SplashscreenInitial());
 
   void gotonext() async {
-    await Future.delayed(Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 3));
     emit(SplashscreenFinal());
   }
 }

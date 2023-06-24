@@ -14,8 +14,8 @@ class GeofencigCubit extends Cubit<GeofencigState> {
         final distance = Geolocator.distanceBetween(
           position.latitude,
           position.longitude,
-          9.4749534,
-          76.3261213,
+          10.010092,
+          76.336313,
         );
 
         debugPrint(distance.toString());
